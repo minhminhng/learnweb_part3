@@ -5,3 +5,24 @@ Content-Type: application/json
   "content":"Let try POSTMAN",
   "important": true
 }
+
+###
+POST https://salty-anchorage-76602.herokuapp.com/api/notes/
+Content-Type: application/json
+
+{
+  "content":"Let try POSTMAN",
+  "important": true
+}
+
+###
+POST https://salty-anchorage-76602.herokuapp.com/api/notes/
+Content-Type: application/json
+
+{
+  "content":"Herolu is a good start",
+  "important": true
+}
+
+###
+DELETE  https://salty-anchorage-76602.herokuapp.com/api/notes/5
