@@ -2,7 +2,7 @@ POST http://localhost:3001/api/notes/
 Content-Type: application/json
 
 {
-  # "content":"CSS",
+  "content":"CSS",
   "important": true
 }
 
@@ -29,7 +29,7 @@ POST https://salty-anchorage-76602.herokuapp.com/api/notes/
 Content-Type: application/json
 
 {
-  "content":"Herolu is a good start",
+  "content":"Her",
   "important": true
 }
 
