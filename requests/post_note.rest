@@ -2,8 +2,17 @@ POST http://localhost:3001/api/notes/
 Content-Type: application/json
 
 {
-  "content":"Let try POSTMAN",
+  "content":"CSS",
   "important": true
+}
+
+###
+PUT http://localhost:3001/api/notes/60bf494ad34c64552078758a
+Content-Type: application/json
+
+{
+  "content":"Welcome to web",
+  "important": false
 }
 
 ###
@@ -26,3 +35,9 @@ Content-Type: application/json
 
 ###
 DELETE  https://salty-anchorage-76602.herokuapp.com/api/notes/5
+
+### 
+DELETE http://localhost:3001/api/notes/60bf4b92bf7de55124ecd742
+
+###
+
